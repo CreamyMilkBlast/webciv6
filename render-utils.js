@@ -1,0 +1,3 @@
+const AtlasArt={tint(hex,amount){const n=parseInt(hex.slice(1),16);return '#'+[16,8,0].map(shift=>Math.round(Math.max(0,Math.min(255,((n>>shift)&255)+amount))).toString(16).padStart(2,'0')).join('')}};
+AtlasArt.yieldPips=function(yields){const units=[];for(const kind of ['food','production','gold','science','culture','faith'])for(let i=0;i<(yields[kind]||0);i++)units.push(kind);const result=[];for(let i=0;i<units.length;i++){const row=Math.floor(i/10),count=Math.min(10,units.length-row*10);result.push({kind:units[i],x:(i%10-(count-1)/2)*4,y:row*4.5})}return result};
+if(typeof module!=='undefined')module.exports=AtlasArt;

@@ -1,0 +1,25 @@
+name: Check project
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Test map model and rendering helpers
+        run: node --test tests/*.test.cjs
+      - name: Validate map generation across settings
+        run: node scripts/validate-worlds.cjs
+      - name: Build offline HTML and source archive
+        run: python3 build.py
+      - name: Check committed HTML is current
+        run: git diff --exit-code -- dist/index.html
