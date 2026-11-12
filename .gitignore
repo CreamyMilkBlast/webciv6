@@ -1,0 +1,19 @@
+# Local dependencies, environments and editor/OS files
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local secrets and hosting metadata
+.env
+.env.*
+!.env.example
+.openai/
+.sites-*/
+
+# Generated downloadable archive; build recreates it
+/dist/source.zip

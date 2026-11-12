@@ -1,0 +1,1324 @@
+{
+  "version": "0.1.0",
+  "ruleset": "Gathering Storm \u00b7 Ancient Era subset",
+  "resources": [
+    {
+      "id": "RESOURCE_BANANAS",
+      "name": "Bananas",
+      "kind": "Bonus",
+      "yields": {
+        "food": 1
+      },
+      "placements": [
+        "FEATURE_JUNGLE"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_BANANAS"
+    },
+    {
+      "id": "RESOURCE_CATTLE",
+      "name": "Cattle",
+      "kind": "Bonus",
+      "yields": {
+        "food": 1
+      },
+      "placements": [
+        "TERRAIN_GRASS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Pasture"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_CATTLE"
+    },
+    {
+      "id": "RESOURCE_COPPER",
+      "name": "Copper",
+      "kind": "Bonus",
+      "yields": {
+        "gold": 2
+      },
+      "placements": [
+        "TERRAIN_DESERT_HILLS",
+        "TERRAIN_GRASS_HILLS",
+        "TERRAIN_PLAINS_HILLS",
+        "TERRAIN_SNOW_HILLS",
+        "TERRAIN_TUNDRA_HILLS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Mine"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_COPPER"
+    },
+    {
+      "id": "RESOURCE_CRABS",
+      "name": "Crabs",
+      "kind": "Bonus",
+      "yields": {
+        "gold": 2
+      },
+      "placements": [
+        "TERRAIN_COAST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Fishing Boats"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_CRABS"
+    },
+    {
+      "id": "RESOURCE_DEER",
+      "name": "Deer",
+      "kind": "Bonus",
+      "yields": {
+        "production": 1
+      },
+      "placements": [
+        "TERRAIN_TUNDRA",
+        "TERRAIN_TUNDRA_HILLS",
+        "FEATURE_FOREST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Camp"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_DEER"
+    },
+    {
+      "id": "RESOURCE_FISH",
+      "name": "Fish",
+      "kind": "Bonus",
+      "yields": {
+        "food": 1
+      },
+      "placements": [
+        "TERRAIN_COAST",
+        "FEATURE_REEF"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Fishing Boats"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_FISH"
+    },
+    {
+      "id": "RESOURCE_RICE",
+      "name": "Rice",
+      "kind": "Bonus",
+      "yields": {
+        "food": 1
+      },
+      "placements": [
+        "TERRAIN_GRASS",
+        "FEATURE_FLOODPLAINS_GRASSLAND",
+        "FEATURE_MARSH"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Farm"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_RICE"
+    },
+    {
+      "id": "RESOURCE_SHEEP",
+      "name": "Sheep",
+      "kind": "Bonus",
+      "yields": {
+        "food": 1
+      },
+      "placements": [
+        "TERRAIN_DESERT_HILLS",
+        "TERRAIN_GRASS_HILLS",
+        "TERRAIN_PLAINS_HILLS",
+        "TERRAIN_TUNDRA_HILLS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Pasture"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_SHEEP"
+    },
+    {
+      "id": "RESOURCE_STONE",
+      "name": "Stone",
+      "kind": "Bonus",
+      "yields": {
+        "production": 1
+      },
+      "placements": [
+        "TERRAIN_GRASS",
+        "TERRAIN_GRASS_HILLS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Quarry"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_STONE"
+    },
+    {
+      "id": "RESOURCE_WHEAT",
+      "name": "Wheat",
+      "kind": "Bonus",
+      "yields": {
+        "food": 1
+      },
+      "placements": [
+        "FEATURE_FLOODPLAINS",
+        "TERRAIN_PLAINS",
+        "FEATURE_FLOODPLAINS_PLAINS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Farm"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_WHEAT"
+    },
+    {
+      "id": "RESOURCE_CITRUS",
+      "name": "Citrus",
+      "kind": "Luxury",
+      "yields": {
+        "food": 2
+      },
+      "placements": [
+        "TERRAIN_GRASS",
+        "TERRAIN_PLAINS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_CITRUS"
+    },
+    {
+      "id": "RESOURCE_COCOA",
+      "name": "Cocoa",
+      "kind": "Luxury",
+      "yields": {
+        "gold": 3
+      },
+      "placements": [
+        "FEATURE_JUNGLE"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_COCOA"
+    },
+    {
+      "id": "RESOURCE_COFFEE",
+      "name": "Coffee",
+      "kind": "Luxury",
+      "yields": {
+        "culture": 1
+      },
+      "placements": [
+        "TERRAIN_GRASS",
+        "FEATURE_JUNGLE"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_COFFEE"
+    },
+    {
+      "id": "RESOURCE_COTTON",
+      "name": "Cotton",
+      "kind": "Luxury",
+      "yields": {
+        "gold": 3
+      },
+      "placements": [
+        "FEATURE_FLOODPLAINS",
+        "TERRAIN_GRASS",
+        "FEATURE_FLOODPLAINS_GRASSLAND",
+        "TERRAIN_PLAINS",
+        "FEATURE_FLOODPLAINS_PLAINS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_COTTON"
+    },
+    {
+      "id": "RESOURCE_DIAMONDS",
+      "name": "Diamonds",
+      "kind": "Luxury",
+      "yields": {
+        "gold": 3
+      },
+      "placements": [
+        "TERRAIN_DESERT_HILLS",
+        "TERRAIN_GRASS_HILLS",
+        "TERRAIN_PLAINS_HILLS",
+        "FEATURE_JUNGLE",
+        "TERRAIN_TUNDRA_HILLS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Mine"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_DIAMONDS"
+    },
+    {
+      "id": "RESOURCE_DYES",
+      "name": "Dyes",
+      "kind": "Luxury",
+      "yields": {
+        "faith": 1
+      },
+      "placements": [
+        "FEATURE_JUNGLE",
+        "FEATURE_FOREST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_DYES"
+    },
+    {
+      "id": "RESOURCE_FURS",
+      "name": "Furs",
+      "kind": "Luxury",
+      "yields": {
+        "food": 1,
+        "gold": 1
+      },
+      "placements": [
+        "TERRAIN_TUNDRA",
+        "FEATURE_FOREST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Camp"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_FURS"
+    },
+    {
+      "id": "RESOURCE_GYPSUM",
+      "name": "Gypsum",
+      "kind": "Luxury",
+      "yields": {
+        "production": 1,
+        "gold": 1
+      },
+      "placements": [
+        "TERRAIN_DESERT_HILLS",
+        "TERRAIN_PLAINS",
+        "TERRAIN_PLAINS_HILLS",
+        "TERRAIN_TUNDRA_HILLS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Quarry"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_GYPSUM"
+    },
+    {
+      "id": "RESOURCE_INCENSE",
+      "name": "Incense",
+      "kind": "Luxury",
+      "yields": {
+        "faith": 1
+      },
+      "placements": [
+        "TERRAIN_DESERT",
+        "TERRAIN_PLAINS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_INCENSE"
+    },
+    {
+      "id": "RESOURCE_IVORY",
+      "name": "Ivory",
+      "kind": "Luxury",
+      "yields": {
+        "production": 1,
+        "gold": 1
+      },
+      "placements": [
+        "TERRAIN_DESERT",
+        "TERRAIN_PLAINS",
+        "TERRAIN_PLAINS_HILLS",
+        "FEATURE_JUNGLE",
+        "FEATURE_FOREST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Camp"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_IVORY"
+    },
+    {
+      "id": "RESOURCE_JADE",
+      "name": "Jade",
+      "kind": "Luxury",
+      "yields": {
+        "culture": 1
+      },
+      "placements": [
+        "TERRAIN_GRASS",
+        "TERRAIN_PLAINS",
+        "TERRAIN_TUNDRA"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Mine"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_JADE"
+    },
+    {
+      "id": "RESOURCE_MARBLE",
+      "name": "Marble",
+      "kind": "Luxury",
+      "yields": {
+        "culture": 1
+      },
+      "placements": [
+        "TERRAIN_GRASS",
+        "TERRAIN_GRASS_HILLS",
+        "TERRAIN_PLAINS_HILLS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Quarry"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_MARBLE"
+    },
+    {
+      "id": "RESOURCE_MERCURY",
+      "name": "Mercury",
+      "kind": "Luxury",
+      "yields": {
+        "science": 1
+      },
+      "placements": [
+        "TERRAIN_PLAINS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Mine"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_MERCURY"
+    },
+    {
+      "id": "RESOURCE_PEARLS",
+      "name": "Pearls",
+      "kind": "Luxury",
+      "yields": {
+        "faith": 1
+      },
+      "placements": [
+        "TERRAIN_COAST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Fishing Boats"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_PEARLS"
+    },
+    {
+      "id": "RESOURCE_SALT",
+      "name": "Salt",
+      "kind": "Luxury",
+      "yields": {
+        "food": 1,
+        "gold": 1
+      },
+      "placements": [
+        "TERRAIN_DESERT",
+        "TERRAIN_PLAINS",
+        "TERRAIN_TUNDRA"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Mine"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_SALT"
+    },
+    {
+      "id": "RESOURCE_SILK",
+      "name": "Silk",
+      "kind": "Luxury",
+      "yields": {
+        "culture": 1
+      },
+      "placements": [
+        "FEATURE_FOREST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_SILK"
+    },
+    {
+      "id": "RESOURCE_SILVER",
+      "name": "Silver",
+      "kind": "Luxury",
+      "yields": {
+        "gold": 3
+      },
+      "placements": [
+        "TERRAIN_DESERT",
+        "TERRAIN_DESERT_HILLS",
+        "TERRAIN_TUNDRA",
+        "TERRAIN_TUNDRA_HILLS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Mine"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_SILVER"
+    },
+    {
+      "id": "RESOURCE_SPICES",
+      "name": "Spices",
+      "kind": "Luxury",
+      "yields": {
+        "food": 2
+      },
+      "placements": [
+        "FEATURE_JUNGLE",
+        "FEATURE_FOREST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_SPICES"
+    },
+    {
+      "id": "RESOURCE_SUGAR",
+      "name": "Sugar",
+      "kind": "Luxury",
+      "yields": {
+        "food": 2
+      },
+      "placements": [
+        "FEATURE_FLOODPLAINS",
+        "FEATURE_FLOODPLAINS_GRASSLAND",
+        "FEATURE_MARSH",
+        "FEATURE_FLOODPLAINS_PLAINS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_SUGAR"
+    },
+    {
+      "id": "RESOURCE_TEA",
+      "name": "Tea",
+      "kind": "Luxury",
+      "yields": {
+        "science": 1
+      },
+      "placements": [
+        "TERRAIN_GRASS",
+        "TERRAIN_GRASS_HILLS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_TEA"
+    },
+    {
+      "id": "RESOURCE_TOBACCO",
+      "name": "Tobacco",
+      "kind": "Luxury",
+      "yields": {
+        "faith": 1
+      },
+      "placements": [
+        "TERRAIN_GRASS",
+        "TERRAIN_PLAINS",
+        "FEATURE_JUNGLE",
+        "FEATURE_FOREST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_TOBACCO"
+    },
+    {
+      "id": "RESOURCE_TRUFFLES",
+      "name": "Truffles",
+      "kind": "Luxury",
+      "yields": {
+        "gold": 3
+      },
+      "placements": [
+        "FEATURE_MARSH",
+        "FEATURE_JUNGLE",
+        "FEATURE_FOREST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Camp"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_TRUFFLES"
+    },
+    {
+      "id": "RESOURCE_WHALES",
+      "name": "Whales",
+      "kind": "Luxury",
+      "yields": {
+        "production": 1,
+        "gold": 1
+      },
+      "placements": [
+        "TERRAIN_COAST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Fishing Boats"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_WHALES"
+    },
+    {
+      "id": "RESOURCE_WINE",
+      "name": "Wine",
+      "kind": "Luxury",
+      "yields": {
+        "food": 1,
+        "gold": 1
+      },
+      "placements": [
+        "TERRAIN_GRASS",
+        "TERRAIN_PLAINS",
+        "FEATURE_FOREST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_WINE"
+    },
+    {
+      "id": "RESOURCE_AMBER",
+      "name": "Amber",
+      "kind": "Luxury",
+      "yields": {
+        "culture": 1
+      },
+      "placements": [
+        "TERRAIN_COAST",
+        "FEATURE_JUNGLE",
+        "FEATURE_FOREST"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Fishing Boats",
+        "Mine"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_AMBER"
+    },
+    {
+      "id": "RESOURCE_OLIVES",
+      "name": "Olives",
+      "kind": "Luxury",
+      "yields": {
+        "production": 1,
+        "gold": 1
+      },
+      "placements": [
+        "TERRAIN_GRASS"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Plantation"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_OLIVES"
+    },
+    {
+      "id": "RESOURCE_TURTLES",
+      "name": "Turtles",
+      "kind": "Luxury",
+      "yields": {
+        "science": 1
+      },
+      "placements": [
+        "FEATURE_REEF"
+      ],
+      "reveal": null,
+      "improvement": [
+        "Fishing Boats"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_TURTLES"
+    },
+    {
+      "id": "RESOURCE_HORSES",
+      "name": "Horses",
+      "kind": "Strategic",
+      "yields": {
+        "food": 1,
+        "production": 1
+      },
+      "placements": [
+        "TERRAIN_GRASS",
+        "TERRAIN_PLAINS"
+      ],
+      "reveal": "Animal Husbandry",
+      "improvement": [
+        "Pasture"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_HORSES"
+    },
+    {
+      "id": "RESOURCE_IRON",
+      "name": "Iron",
+      "kind": "Strategic",
+      "yields": {
+        "science": 1
+      },
+      "placements": [
+        "TERRAIN_DESERT_HILLS",
+        "TERRAIN_GRASS_HILLS",
+        "TERRAIN_PLAINS_HILLS",
+        "TERRAIN_TUNDRA_HILLS"
+      ],
+      "reveal": "Bronze Working",
+      "improvement": [
+        "Mine"
+      ],
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=RESOURCE_IRON"
+    }
+  ],
+  "features": {
+    "FEATURES_INTRO": {
+      "name": "Introduction",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURES_INTRO",
+      "resources": []
+    },
+    "TERRAIN_GRASS": {
+      "name": "Grassland",
+      "yields": {
+        "food": 2
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_GRASS",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_CATTLE",
+        "RESOURCE_CITRUS",
+        "RESOURCE_COFFEE",
+        "RESOURCE_COTTON",
+        "RESOURCE_HONEY",
+        "RESOURCE_HORSES",
+        "RESOURCE_JADE",
+        "RESOURCE_MAIZE",
+        "RESOURCE_MARBLE",
+        "RESOURCE_NITER",
+        "RESOURCE_OLIVES",
+        "RESOURCE_RICE",
+        "RESOURCE_STONE",
+        "RESOURCE_TEA",
+        "RESOURCE_TOBACCO",
+        "RESOURCE_URANIUM",
+        "RESOURCE_WINE"
+      ]
+    },
+    "TERRAIN_GRASS_HILLS": {
+      "name": "Grassland (Hills)",
+      "yields": {
+        "food": 2,
+        "production": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_GRASS_HILLS",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_COAL",
+        "RESOURCE_COPPER",
+        "RESOURCE_DIAMONDS",
+        "RESOURCE_IRON",
+        "RESOURCE_MARBLE",
+        "RESOURCE_SHEEP",
+        "RESOURCE_STONE",
+        "RESOURCE_TEA",
+        "RESOURCE_URANIUM"
+      ]
+    },
+    "TERRAIN_GRASS_MOUNTAIN": {
+      "name": "Mountains",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_GRASS_MOUNTAIN",
+      "resources": []
+    },
+    "TERRAIN_PLAINS": {
+      "name": "Plains",
+      "yields": {
+        "food": 1,
+        "production": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_PLAINS",
+      "resources": [
+        "RESOURCE_ALUMINUM",
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_CITRUS",
+        "RESOURCE_COTTON",
+        "RESOURCE_GYPSUM",
+        "RESOURCE_HONEY",
+        "RESOURCE_HORSES",
+        "RESOURCE_INCENSE",
+        "RESOURCE_IVORY",
+        "RESOURCE_JADE",
+        "RESOURCE_MAIZE",
+        "RESOURCE_MERCURY",
+        "RESOURCE_NITER",
+        "RESOURCE_SALT",
+        "RESOURCE_TOBACCO",
+        "RESOURCE_URANIUM",
+        "RESOURCE_WHEAT",
+        "RESOURCE_WINE"
+      ]
+    },
+    "TERRAIN_PLAINS_HILLS": {
+      "name": "Plains (Hills)",
+      "yields": {
+        "food": 1,
+        "production": 2
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_PLAINS_HILLS",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_COAL",
+        "RESOURCE_COPPER",
+        "RESOURCE_DIAMONDS",
+        "RESOURCE_GYPSUM",
+        "RESOURCE_IRON",
+        "RESOURCE_IVORY",
+        "RESOURCE_MARBLE",
+        "RESOURCE_SHEEP",
+        "RESOURCE_URANIUM"
+      ]
+    },
+    "TERRAIN_DESERT": {
+      "name": "Desert",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_DESERT",
+      "resources": [
+        "RESOURCE_ALUMINUM",
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_INCENSE",
+        "RESOURCE_IVORY",
+        "RESOURCE_NITER",
+        "RESOURCE_OIL",
+        "RESOURCE_SALT",
+        "RESOURCE_SILVER",
+        "RESOURCE_URANIUM"
+      ]
+    },
+    "TERRAIN_DESERT_HILLS": {
+      "name": "Desert (Hills)",
+      "yields": {
+        "production": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_DESERT_HILLS",
+      "resources": [
+        "RESOURCE_ALUMINUM",
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_COPPER",
+        "RESOURCE_DIAMONDS",
+        "RESOURCE_GYPSUM",
+        "RESOURCE_IRON",
+        "RESOURCE_SHEEP",
+        "RESOURCE_SILVER",
+        "RESOURCE_URANIUM"
+      ]
+    },
+    "TERRAIN_TUNDRA": {
+      "name": "Tundra",
+      "yields": {
+        "food": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_TUNDRA",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_DEER",
+        "RESOURCE_FURS",
+        "RESOURCE_JADE",
+        "RESOURCE_NITER",
+        "RESOURCE_OIL",
+        "RESOURCE_SALT",
+        "RESOURCE_SILVER",
+        "RESOURCE_URANIUM"
+      ]
+    },
+    "TERRAIN_TUNDRA_HILLS": {
+      "name": "Tundra (Hills)",
+      "yields": {
+        "food": 1,
+        "production": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_TUNDRA_HILLS",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_COPPER",
+        "RESOURCE_DEER",
+        "RESOURCE_DIAMONDS",
+        "RESOURCE_GYPSUM",
+        "RESOURCE_IRON",
+        "RESOURCE_SHEEP",
+        "RESOURCE_SILVER",
+        "RESOURCE_URANIUM"
+      ]
+    },
+    "TERRAIN_SNOW": {
+      "name": "Snow",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_SNOW",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_OIL",
+        "RESOURCE_URANIUM"
+      ]
+    },
+    "TERRAIN_SNOW_HILLS": {
+      "name": "Snow (Hills)",
+      "yields": {
+        "production": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_SNOW_HILLS",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_COPPER",
+        "RESOURCE_URANIUM"
+      ]
+    },
+    "TERRAIN_COAST": {
+      "name": "Coast and Lake",
+      "yields": {
+        "food": 1,
+        "gold": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_COAST",
+      "resources": [
+        "RESOURCE_AMBER",
+        "RESOURCE_CRABS",
+        "RESOURCE_FISH",
+        "RESOURCE_OIL",
+        "RESOURCE_PEARLS",
+        "RESOURCE_SHIPWRECK",
+        "RESOURCE_WHALES"
+      ]
+    },
+    "TERRAIN_OCEAN": {
+      "name": "Ocean",
+      "yields": {
+        "food": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=TERRAIN_OCEAN",
+      "resources": []
+    },
+    "FEATURE_FLOODPLAINS": {
+      "name": "Desert Floodplains",
+      "yields": {
+        "food": 2
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_FLOODPLAINS",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_COTTON",
+        "RESOURCE_OIL",
+        "RESOURCE_SUGAR",
+        "RESOURCE_WHEAT"
+      ]
+    },
+    "FEATURE_ICE": {
+      "name": "Ice",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_ICE",
+      "resources": []
+    },
+    "FEATURE_JUNGLE": {
+      "name": "Rainforest",
+      "yields": {
+        "food": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_JUNGLE",
+      "resources": [
+        "RESOURCE_ALUMINUM",
+        "RESOURCE_AMBER",
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_BANANAS",
+        "RESOURCE_COCOA",
+        "RESOURCE_COFFEE",
+        "RESOURCE_DIAMONDS",
+        "RESOURCE_DYES",
+        "RESOURCE_IVORY",
+        "RESOURCE_SPICES",
+        "RESOURCE_TOBACCO",
+        "RESOURCE_TRUFFLES",
+        "RESOURCE_URANIUM"
+      ]
+    },
+    "FEATURE_FOREST": {
+      "name": "Woods",
+      "yields": {
+        "production": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_FOREST",
+      "resources": [
+        "RESOURCE_AMBER",
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_COAL",
+        "RESOURCE_DEER",
+        "RESOURCE_DYES",
+        "RESOURCE_FURS",
+        "RESOURCE_IVORY",
+        "RESOURCE_SILK",
+        "RESOURCE_SPICES",
+        "RESOURCE_TOBACCO",
+        "RESOURCE_TRUFFLES",
+        "RESOURCE_URANIUM",
+        "RESOURCE_WINE"
+      ]
+    },
+    "FEATURE_OASIS": {
+      "name": "Oasis",
+      "yields": {
+        "food": 3,
+        "gold": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_OASIS",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE"
+      ]
+    },
+    "FEATURE_MARSH": {
+      "name": "Marsh",
+      "yields": {
+        "food": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_MARSH",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_OIL",
+        "RESOURCE_RICE",
+        "RESOURCE_SUGAR",
+        "RESOURCE_TRUFFLES"
+      ]
+    },
+    "FEATURE_REEF": {
+      "name": "Reef",
+      "yields": {
+        "food": 1,
+        "production": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_REEF",
+      "resources": [
+        "RESOURCE_FISH",
+        "RESOURCE_TURTLES"
+      ]
+    },
+    "FEATURE_FLOODPLAINS_GRASSLAND": {
+      "name": "Grassland Floodplains",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_FLOODPLAINS_GRASSLAND",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_COTTON",
+        "RESOURCE_MAIZE",
+        "RESOURCE_NITER",
+        "RESOURCE_RICE",
+        "RESOURCE_SUGAR"
+      ]
+    },
+    "FEATURE_FLOODPLAINS_PLAINS": {
+      "name": "Plains Floodplains",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_FLOODPLAINS_PLAINS",
+      "resources": [
+        "RESOURCE_ANTIQUITY_SITE",
+        "RESOURCE_COTTON",
+        "RESOURCE_MAIZE",
+        "RESOURCE_NITER",
+        "RESOURCE_SUGAR",
+        "RESOURCE_WHEAT"
+      ]
+    },
+    "FEATURE_GEOTHERMAL_FISSURE": {
+      "name": "Geothermal Fissure",
+      "yields": {
+        "science": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_GEOTHERMAL_FISSURE",
+      "resources": []
+    },
+    "FEATURE_VOLCANO": {
+      "name": "Volcano",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_VOLCANO",
+      "resources": []
+    },
+    "FEATURE_VOLCANIC_SOIL": {
+      "name": "Volcanic Soil",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_VOLCANIC_SOIL",
+      "resources": []
+    },
+    "FEATURE_BARRIER_REEF": {
+      "name": "Great Barrier Reef",
+      "yields": {
+        "food": 3,
+        "science": 2
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_BARRIER_REEF",
+      "resources": []
+    },
+    "FEATURE_CLIFFS_DOVER": {
+      "name": "Cliffs of Dover",
+      "yields": {
+        "food": 2,
+        "gold": 3,
+        "culture": 3
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_CLIFFS_DOVER",
+      "resources": []
+    },
+    "FEATURE_CRATER_LAKE": {
+      "name": "Crater Lake",
+      "yields": {
+        "science": 1,
+        "faith": 5
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_CRATER_LAKE",
+      "resources": []
+    },
+    "FEATURE_DEAD_SEA": {
+      "name": "Dead Sea",
+      "yields": {
+        "culture": 2,
+        "faith": 2
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_DEAD_SEA",
+      "resources": []
+    },
+    "FEATURE_EVEREST": {
+      "name": "Mount Everest",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_EVEREST",
+      "resources": []
+    },
+    "FEATURE_GALAPAGOS": {
+      "name": "Gal\u00e1pagos Islands",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_GALAPAGOS",
+      "resources": []
+    },
+    "FEATURE_KILIMANJARO": {
+      "name": "Mount Kilimanjaro",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_KILIMANJARO",
+      "resources": []
+    },
+    "FEATURE_PANTANAL": {
+      "name": "Pantanal",
+      "yields": {
+        "food": 2,
+        "culture": 2
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_PANTANAL",
+      "resources": []
+    },
+    "FEATURE_PIOPIOTAHI": {
+      "name": "Piopiotahi",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_PIOPIOTAHI",
+      "resources": []
+    },
+    "FEATURE_TORRES_DEL_PAINE": {
+      "name": "Torres del Paine",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_TORRES_DEL_PAINE",
+      "resources": []
+    },
+    "FEATURE_TSINGY": {
+      "name": "Tsingy de Bemaraha",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_TSINGY",
+      "resources": []
+    },
+    "FEATURE_YOSEMITE": {
+      "name": "Yosemite",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_YOSEMITE",
+      "resources": []
+    },
+    "FEATURE_HA_LONG_BAY": {
+      "name": "H\u1ea1 Long Bay",
+      "yields": {
+        "food": 3,
+        "production": 1,
+        "culture": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_HA_LONG_BAY",
+      "resources": []
+    },
+    "FEATURE_EYJAFJALLAJOKULL": {
+      "name": "Eyjafjallaj\u00f6kull",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_EYJAFJALLAJOKULL",
+      "resources": []
+    },
+    "FEATURE_LYSEFJORDEN": {
+      "name": "Lysefjord",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_LYSEFJORDEN",
+      "resources": []
+    },
+    "FEATURE_GIANTS_CAUSEWAY": {
+      "name": "Giant's Causeway",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_GIANTS_CAUSEWAY",
+      "resources": []
+    },
+    "FEATURE_ULURU": {
+      "name": "Uluru",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_ULURU",
+      "resources": []
+    },
+    "FEATURE_DELICATE_ARCH": {
+      "name": "Delicate Arch",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_DELICATE_ARCH",
+      "resources": []
+    },
+    "FEATURE_EYE_OF_THE_SAHARA": {
+      "name": "Eye of the Sahara",
+      "yields": {
+        "production": 2,
+        "science": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_EYE_OF_THE_SAHARA",
+      "resources": []
+    },
+    "FEATURE_LAKE_RETBA": {
+      "name": "Lake Retba",
+      "yields": {
+        "production": 1,
+        "gold": 2,
+        "culture": 2
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_LAKE_RETBA",
+      "resources": []
+    },
+    "FEATURE_MATTERHORN": {
+      "name": "Matterhorn",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_MATTERHORN",
+      "resources": []
+    },
+    "FEATURE_RORAIMA": {
+      "name": "Mount Roraima",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_RORAIMA",
+      "resources": []
+    },
+    "FEATURE_UBSUNUR_HOLLOW": {
+      "name": "Ubsunur Hollow",
+      "yields": {
+        "food": 1,
+        "production": 1,
+        "faith": 2
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_UBSUNUR_HOLLOW",
+      "resources": []
+    },
+    "FEATURE_ZHANGYE_DANXIA": {
+      "name": "Zhangye Danxia",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_ZHANGYE_DANXIA",
+      "resources": []
+    },
+    "FEATURE_CHOCOLATEHILLS": {
+      "name": "Chocolate Hills",
+      "yields": {
+        "food": 1,
+        "production": 2,
+        "science": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_CHOCOLATEHILLS",
+      "resources": []
+    },
+    "FEATURE_DEVILSTOWER": {
+      "name": "Mato Tipila",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_DEVILSTOWER",
+      "resources": []
+    },
+    "FEATURE_GOBUSTAN": {
+      "name": "Gobustan",
+      "yields": {
+        "production": 1,
+        "culture": 3
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_GOBUSTAN",
+      "resources": []
+    },
+    "FEATURE_IKKIL": {
+      "name": "Ik-Kil",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_IKKIL",
+      "resources": []
+    },
+    "FEATURE_PAMUKKALE": {
+      "name": "Pamukkale",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_PAMUKKALE",
+      "resources": []
+    },
+    "FEATURE_VESUVIUS": {
+      "name": "Mount Vesuvius",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_VESUVIUS",
+      "resources": []
+    },
+    "FEATURE_WHITEDESERT": {
+      "name": "Sahara el Beyda",
+      "yields": {
+        "gold": 4,
+        "science": 1,
+        "culture": 1
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_WHITEDESERT",
+      "resources": []
+    },
+    "FEATURE_BERMUDA_TRIANGLE": {
+      "name": "Bermuda Triangle",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_BERMUDA_TRIANGLE",
+      "resources": []
+    },
+    "FEATURE_FOUNTAIN_OF_YOUTH": {
+      "name": "Fountain of Youth",
+      "yields": {
+        "science": 4,
+        "faith": 4
+      },
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_FOUNTAIN_OF_YOUTH",
+      "resources": []
+    },
+    "FEATURE_PAITITI": {
+      "name": "Pa\u00eftiti",
+      "yields": {},
+      "source": "https://civ6pedia.x0.com/GS/?l=en_US&p=FEATURE_PAITITI",
+      "resources": []
+    }
+  }
+}
