@@ -1,25 +1,41 @@
-# WebCiv6 development guide
+# Project Instructions
 
-This is Ancient Atlas 0.3: an Ancient Era map foundation, not a complete Civilization game. It uses plain JavaScript, Canvas, HTML/CSS and a Python standard-library build. It has no runtime dependencies and needs no npm installation.
+## Objective
+Develop a polished, browser-based, turn-based strategy game. Make focused, verifiable changes that preserve existing functionality.
 
-## Files and boundaries
+## First step for every task
+- Read the repository tree and relevant source files before proposing changes.
+- Treat the source code as the authority for framework, architecture, commands, and behavior.
+- If the source code is missing, explicitly report this and do not invent a codebase or claim tests passed.
+- For substantial changes, provide a brief implementation plan before editing.
 
-- `model.js`: deterministic generation, hex topology, rules, yields and validation; keep it independent of the DOM.
-- `rules.json` and `rules.js`: matching data catalogs. Keep their data synchronized when changing rules.
-- `ui.js`, `render-utils.js`, `style.css`, `template.html`: rendering and interface source.
-- `dist/index.html`: built, self-contained browser entrypoint. Edit source files and rebuild; do not edit it directly.
-- `tests/`: Node's built-in test runner. `scripts/validate-worlds.cjs`: broader generation sweep.
-- `docs/`: research references, simplifications and validation history.
+## Implementation standards
+- Preserve existing working features unless a change is specifically requested.
+- Prefer small, maintainable patches to complete rewrites.
+- Do not add dependencies without explaining why they are necessary.
+- Keep game rules and state management separate from presentation where practical.
+- Do not expose secrets, credentials, or sensitive project data.
 
-## Commands
+## Map generation and game balance
+- Produce coherent landmasses, coasts, and mountain ranges rather than artificial straight-line continent splits.
+- Keep archipelago starts comparable in accessible land, freshwater, nearby resources, and expansion opportunities.
+- Allow geographic variety without giving one player a substantially worse viable start.
+- Make randomized map bugs reproducible through deterministic seeds wherever supported.
 
-- `node --test tests/*.test.cjs` (or `npm test`): normal suite.
-- `node scripts/validate-worlds.cjs`: broad sweep after generation or map-rule changes.
-- `python3 build.py` (Windows: `py -3 build.py`): rebuild HTML and source ZIP.
-- `git diff --exit-code -- dist/index.html`: check that committed HTML matches a rebuild.
+## Testing and quality
+- Inspect existing scripts and test infrastructure before deciding how to test.
+- Run relevant tests and build checks where the cloud environment supports them.
+- For generator changes, evaluate multiple seeds, map sizes, types, and player counts.
+- Add targeted regression tests where the current codebase supports them.
+- Do not claim successful testing without actual execution. Report blockers and manual verification needs.
 
-Keep seed/settings reproducibility, symmetric river edges, legal resources, freshwater starts, and the documented two-tile 2F2P first ring. Archipelago must retain its land-area, reachable-land, yield, freshwater-city, strategic-resource and satellite-access limits. Reject or repair invalid maps; do not silently weaken guarantees to pass tests.
+## Changes and reporting
+- Scope changes to the requested task and keep unrelated behavior unchanged.
+- Summarize modified files, implementation decisions, and observed results.
+- Report actual commands run, test failures, and any unverified assumptions.
+- Prefer reviewable branches and pull requests over unreviewed direct changes to main.
 
-For a relevant bug, add a regression check, run the appropriate suite and rebuild before finishing. For map-generation changes also run the broad sweep and update `generatorVersion` and docs when seed outputs change. Report what was actually verified. Preserve original artwork and source attribution; do not add proprietary game assets. Add gameplay systems only when requested and keep their logic separate from rendering.
-
-No ChatGPT hosting manifest or source-repository credentials are required in this repository. Do not add secrets, account information or local runtime metadata.
+## Reusable workflows
+- Use `.agents/skills/code-review/SKILL.md` for audits and regression-focused review.
+- Use `.agents/skills/map-generation/SKILL.md` for terrain, continents, archipelagos, and start-position fairness.
+- Read `docs/CODEX_WEB_SETUP.md` for the browser-only Codex workflow.
